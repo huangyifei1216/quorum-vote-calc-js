@@ -1,0 +1,25 @@
+{
+  "name": "quorum-vote-calc-js",
+  "version": "1.0.0",
+  "description": "Zero-dependency JavaScript/ESM calculator for Robert's Rules quorum, HOA proxies, 501(c)(3) nonprofit boards, Delaware DGCL §216 share-weighted shareholder meetings, and majority/two-thirds vote abstentions.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "keywords": [
+    "quorum-calculator",
+    "roberts-rules",
+    "hoa-quorum",
+    "board-meeting",
+    "shareholder-quorum",
+    "majority-vote",
+    "two-thirds-vote",
+    "governance"
+  ],
+  "license": "MIT",
+  "homepage": "https://quorumbay.com"
+}
